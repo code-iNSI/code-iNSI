@@ -1,3 +1,4 @@
+# Bilder müssen im gleichen Ordner wie das Script sein.
 from PIL import Image, ImageChops
 
 bild1 = Image.open('image.png').convert('1')
